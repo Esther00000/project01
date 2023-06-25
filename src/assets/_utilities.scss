@@ -1,0 +1,76 @@
+body {
+    background-color: $background;
+    font-family:'GenSenRounded TW Regular', sans-serif;
+    line-height: 1.5;
+    color: $dark;
+}
+
+
+
+h1,h2,h3 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+
+.h2-en,.h3-en,.h5-en,.display-en {
+    font-family: 'Roboto',sans-serif;
+}
+
+.h2-en {
+    font-size: 24px;
+}
+.h3-en {
+    font-size: 18px;
+}
+.h5-en {
+    font-size: 16px;
+}
+.display-en {
+    font-size: 56px;
+}
+
+.btn {
+    font-family: 'GenSenRounded TW Medium', sans-serif;
+    font-size: 18px;
+}
+
+.min-font {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+
+
+//desktop
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    .h2-en {
+        font-size: 32px;
+    }
+    .h3-en {
+        font-size: 24px;
+    }
+    .h5-en {
+        font-size: 20px;
+    }
+    .display-en {
+        font-size: 72px;
+    }
+}
